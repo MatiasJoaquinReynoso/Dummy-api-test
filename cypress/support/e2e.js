@@ -16,5 +16,17 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+module.exports = (on) => {
+    on('task', {
+        'db:teardown':()=>{
+            const teardown = require('../e2e/db/teardown')
+            return teardown()
+        },
+        'db:seeding':()=>{
+            const seeding = require('../e2e/db/seeding')
+            return seeding()
+        }
+    })
+}
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
