@@ -1,4 +1,4 @@
-Hello everyone, my name is Matias Reynoso (QA / TAE). I am creating this repository to test the latest version of Cypress (#10) through an e2e dummy test.
+Hello everyone, my name is Matias Reynoso (QA / TAE). I am creating this repository to test the latest version of Cypress.
 
 This repo was created to practice API testing using Cypress and following the good practices of the following [Course](https://www.udemy.com/course/cypress-e2e-automation-testing-con-js-a-fondo/)
 
